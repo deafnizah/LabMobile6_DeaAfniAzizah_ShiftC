@@ -38,13 +38,13 @@ Langkah 2: Menambahkan Komponen ke Halaman
         </ion-card-content>
       </ion-card>
    ```
-  ion-card	: Menambahkan komponen Card pada halaman
-  ion-button	: Menambahkan komponen button atau tombol
-  ion-popover	: Menambahkan pesan singkat saat tombol ditekan
-  ion-card-header	: Menambahkan header atau kepala pada Card
-  ion-card-title	: Menambahkan judul untuk Card
-  ion-card-subtitle	: Menambahkan subjudul untuk Card
-  ion-card-content	: Menambahkan isi konten pada Card
+  a. ion-card	: Menambahkan komponen Card pada halaman  
+  b. ion-button	: Menambahkan komponen button atau tombol  
+  c. ion-popover	: Menambahkan pesan singkat saat tombol ditekan  
+  d. ion-card-header	: Menambahkan header atau kepala pada Card  
+  e. ion-card-title	: Menambahkan judul untuk Card  
+  f. ion-card-subtitle	: Menambahkan subjudul untuk Card  
+  g. ion-card-content	: Menambahkan isi konten pada Card
 
 Langkah 3: Styling Komponen
 1.	Buka file home.page.scss.
