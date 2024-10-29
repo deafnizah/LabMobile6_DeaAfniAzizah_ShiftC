@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Blank
+      Tugas 6
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -14,7 +14,25 @@
   </ion-header>
 
   <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+    <div id="card">
+      <ion-card>
+        <ion-button aria-label="Favorite" id="click-trigger">
+          <ion-icon name="heart" aria-hidden="true"></ion-icon>
+        </ion-button>
+        <ion-popover trigger="click-trigger" triggerAction="click">
+          <ng-template>
+            <ion-content class="ion-padding">Hello!</ion-content>
+          </ng-template>
+        </ion-popover>
+        <ion-card-header>
+          <ion-card-title>H1D022093</ion-card-title>
+          <ion-card-subtitle><b>Dea Afni Azizah</b></ion-card-subtitle>
+        </ion-card-header>
+
+        <ion-card-content>
+          Tugas 6 Pertemuan 7 Praktikum Pemrograman Mobile
+        </ion-card-content>
+      </ion-card>
+    </div>
   </div>
 </ion-content>

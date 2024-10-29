@@ -14,14 +14,42 @@
 }
 
 #container p {
-  font-size: 16px;
-  line-height: 22px;
+  font-size: 20px;
+  line-height: 26px;
 
-  color: #8c8c8c;
+  color: #27242d;
 
   margin: 0;
 }
 
 #container a {
   text-decoration: none;
+}
+
+#card {
+  max-width: 350px;
+  margin: 0 auto;
+}
+
+ion-card {
+  --background: #1f1c20;
+  --color: #966fb8;
+}
+
+ion-card-title {
+  --color: #966fb8;
+  font-size: 20px;
+}
+
+ion-card-subtitle {
+  --color: #ebc3eb;
+  font-size: 30px;
+}
+
+ion-title {
+  --color: #966fb8;
+}
+
+ion-button {
+  --background: #966fb8;
 }
