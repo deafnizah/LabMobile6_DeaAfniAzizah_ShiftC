@@ -14,6 +14,10 @@ ionic start tugas6
    ```
 ionic serve
 ```
+atau
+```
+ionic s
+```
 
 Langkah 2: Menambahkan Komponen ke Halaman
 1.	Buka File home.page.html untuk menambahkan komponen.
